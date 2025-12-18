@@ -1,5 +1,5 @@
 <script setup>
-  import header from '@header.vue';
+  import header from '@/components/header.vue';
 
   compo
 </script setup>
