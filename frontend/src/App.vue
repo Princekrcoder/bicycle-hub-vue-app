@@ -1,12 +1,12 @@
 <script setup>
-  import header from '@/components/header.vue';
+  import Header from '@/components/header.vue';
 
   compo
 </script setup>
 
 <template>
   <div>
-    <header />
+    <Header />
   </div>
 </template>
 
