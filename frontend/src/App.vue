@@ -2,7 +2,7 @@
   import header from './components/header.vue';
 
   compo
-</script se>
+</script setup>
 
 <template>
   <div>
