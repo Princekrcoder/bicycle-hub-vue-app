@@ -1,5 +1,6 @@
 <template>
 <div>
+  <header />
     <HelloWorld />
     <router-view />
 
@@ -8,7 +9,8 @@
 
 <script setup>
 import HelloWorld from './components/HelloWorld.vue';
-im
+import { RouterView } from 'vue-router';
+import header from './components/header.vue';
 </script>
 
 
