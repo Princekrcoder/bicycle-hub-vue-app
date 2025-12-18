@@ -1,12 +1,19 @@
-<script setup>
-import Header from "@/components/header.vue";
+<script>
+import HelloWorld from './components/HelloWorld.vue';
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld
+  }
+}
+
 </script>
 
 <template>
-  <div>
-    <h1>Prince</h1>
-    <!-- <Header />
-    <router-view /> -->
-  </div>
-  
+<div>
+    <HelloWorld />
+    <router-view />
+
+</div>
 </template>
