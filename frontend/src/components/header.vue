@@ -110,4 +110,5 @@ onUnmounted(() => window.removeEventListener("scroll", handleScroll));
   </header>
 </template>
 
-<style src="./assets/css/header.css"></style>
+<style src="@/assets/css/header.css"></style>
+
