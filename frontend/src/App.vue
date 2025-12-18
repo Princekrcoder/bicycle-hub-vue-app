@@ -1,14 +1,7 @@
 <script setup>
-  import Header from '@/components/header.vue';
-
-  compo
-</script setup>
+import Header from "@/components/Header.vue";
+</script>
 
 <template>
-  <div>
-    <Header />
-  </div>
+  <Header />
 </template>
-
-
-<style scoped></style>
