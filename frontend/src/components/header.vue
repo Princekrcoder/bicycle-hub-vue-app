@@ -25,7 +25,7 @@ onUnmounted(() => window.removeEventListener("scroll", handleScroll));
 </script>
 
 <template>
-  <header>
+  <div>
     <!-- NAV -->
   <Motion
     tag="nav"
