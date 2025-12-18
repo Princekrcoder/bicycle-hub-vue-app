@@ -25,7 +25,8 @@ onUnmounted(() => window.removeEventListener("scroll", handleScroll));
 </script>
 
 <template>
-  <!-- NAV -->
+  <div>
+    <!-- NAV -->
   <Motion
     tag="nav"
     :class="['navbar', isSticky ? 'navbar--sticky' : 'navbar--absolute']"
@@ -106,6 +107,8 @@ onUnmounted(() => window.removeEventListener("scroll", handleScroll));
     <RouterLink to="/about" @click="toggleMenu">About</RouterLink>
     <RouterLink to="/contact" @click="toggleMenu">Contact</RouterLink>
   </Motion>
+</div>
 </template>
 
 <style src="@/assets/css/header.css"></style>
+
