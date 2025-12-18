@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+  import
+</script>
 
 <template>
   <div class="min-h-screen bg-black flex items-center justify-center">
