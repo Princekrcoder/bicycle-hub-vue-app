@@ -107,7 +107,7 @@ onUnmounted(() => window.removeEventListener("scroll", handleScroll));
     <RouterLink to="/about" @click="toggleMenu">About</RouterLink>
     <RouterLink to="/contact" @click="toggleMenu">Contact</RouterLink>
   </Motion>
-  </header>
+</div>
 </template>
 
 <style src="@/assets/css/header.css"></style>
