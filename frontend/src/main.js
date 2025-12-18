@@ -6,4 +6,4 @@ import { MotionPlugin } from "@vueuse/motion";
 createApp(App)
 .use(router)
 .mount("#app")
-.;
+.use(MotionPlugin);
